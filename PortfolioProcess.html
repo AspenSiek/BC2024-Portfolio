@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <ul class = "NavBarUl">
+            <li class = "NavBarLi"><a href="Home.html">Home</a></li>
+            <li class = "NavBarLi"><a href="AboutMe.html">About Me</a></li>
+            <li class = "NavBarLi"><a href="ContactInfo.html">Contact</a></li>
+            <li class = "NavBarLi"><a href="TechnicalSkills.html">Skills</a></li>
+            <li class = "NavBarLi"><a href="Projects.html">Projects</a></li>
+            <li class = "NavBarLi" id ="dropdown">
+              <a href="javascript:void(0)" class="DropdownButton">My Process</a>
+              <div class="dropdown-content">
+                <a href="PortfolioProcess.html">Portfolio Project</a>
+                <a href="DivergentProcess.html">Adventure Game</a>
+                <a href="HarryPotterProcess.html">Quiz Project</a>
+                <a href="BikeLaneProcess.html">Bike Lane Webpage</a>
+              </div>
+            </li>
+        </ul>
+        <div ProcessPortfolio>
+            <div class = "ProcessContainer">
+                <div class = "ProcessHeader">
+                    <h1>My Process for my Portfolio Project</h1>
+                </div>
+                <div class = "ProcessContent">
+                    <img id = "BrainstormImg" class = "ProcessImg" src = "../Process Images/PortfolioBrainstorm.jpg"/>
+                    <div class = "ProcessText">
+                        <h2>Brainstorm</h2>
+                        <p id = "BrainstormText">Before doing anything else, I did some rouhg sketches of what I wanted each of my pages to look like.</p>
+                    </div>
+                </div>
+                <div class = "ProcessContent">
+                    <img class = "ProcessImg" src = "../Process Images/PortfolioWireframe.png"/>
+                    <div class = "ProjectText">
+                        <h2>WireFrame</h2>
+                        <p>Next, I went onto Whimsical to do some more precise modeling for my website.</p>
+                    </div>
+                </div>
+                <div class = "ProcessContent">
+                    <img class = "ProcessImg" src =  "../Process Images/PortfolioHTML.png"/>
+                    <div class = "ProjectText">
+                        <h2>HTML</h2>
+                        <p>The NavBar took a few tries and W3 School searches to get right, but I ended up with this list or links with divs inside of it. I also practiced making columns, rows, and lines in html while making my skills page.</p>
+                    </div>
+                </div>
+                <div class = "ProcessContent">
+                    
+                    <!-- <img class = "ProcessImg" src = "../Process Images/PortfolioCSS.png"/> -->
+                    
+
+                    <div class = PortfolioRow>
+                        <div class = PortfolioColumn>
+                            <video class = "ProcessImg" autoplay>
+                                <source src = "../Process Images/ProjectVideo.mp4" type="video/mp4">
+                            </video>                        </div>
+                        <div class = PortfolioColumn>
+                            <img class = "ProcessImg" id = "PortfolioCSS" src = "../Process Images/PortfolioCSSTop.png"/>
+                            <img class = "ProcessImg" id = "PortfolioCSS" src = "../Process Images/PortfolioCSSBottom.png"/>
+                        </div>
+                    </div>
+                    <div class = "ProjectText">
+                        <h2>CSS</h2>
+                        <p>The achivement I am likely most proud of is figuting out animations 
+                            and transitions, two of which are shown here. The transition 
+                            increases the width of project enclosured when the user hovers over 
+                            them and the animation takes care of sliding all of the content onto 
+                            the page when it loads. I also learned how to make translucent white 
+                            backgrounds during this project ( shown as rbga(255, 255, 255, 0.85)) 
+                            which helped me create the style I was looking for.
+                        </p>
+                    </div>
+                </div>
+                <br/>
+            </div>
+            <br/>
+        </div>
+    </body>
+</html>

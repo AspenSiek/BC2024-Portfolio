@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <link rel="stylesheet" href="Style.css">
+    <body>
+        <div class = ProjectPage>
+            <ul class = "NavBarUl">
+                <li class = "NavBarLi"><a href="Home.html">Home</a></li>
+                <li class = "NavBarLi"><a href="AboutMe.html">About Me</a></li>
+                <li class = "NavBarLi"><a href="ContactInfo.html">Contact</a></li>
+                <li class = "NavBarLi"><a href="TechnicalSkills.html">Skills</a></li>
+                <li class = "NavBarLi"><a href="Projects.html">Projects</a></li>
+                <li class = "NavBarLi" id ="dropdown">
+                    <a class="DropdownButton">My Process</a>
+                    <div class="dropdown-content">
+                        <a href="PortfolioProcess.html">Portfolio Project</a>
+                        <a href="DivergentProcess.html">Adventure Game</a>
+                        <a href="HarryPotterProcess.html">Quiz Project</a>
+                        <a href="BikeLaneProcess.html">Bike Lane Webpage</a>
+                    </div>
+                </li>
+            </ul>
+            <!--
+            <div class = "NavBar">
+                <a href = "Home.html">Home</a>
+                <a href = "AboutMe.html">About Me</a>
+                <a class = "active" href = "Projects.html">Projects</a>
+                <a class = "Dropdown">
+                    <a class = "DropdownButton">My Process</a>
+                    <div class = DropdownContent>
+                        <a href = "#">Portfolio Project</a>
+                        <a href = "#">Divergent Project</a>
+                        <a href = "#">Harrt Potter Project</a>
+                        <a href = "#">Bike Lane Project</a>
+                    </div>
+                </a>
+                <a href = "ContactInfo.html">Contact</a>
+                <a href = "TechnicalSkills.html">Skills</a>
+            </div>
+            -->
+            <br/>  
+            <div class = "ProjectContainer">
+                <h1 class = "ProjectHeader">My Projects</h1>
+                <div class = "ProjectContent" id = "PortfolioButton">
+                    <img 
+                        alt = "A picture of the home screen of this portfolio" 
+                        class = "ProjectImg"
+                        src = "../Project Images/PortfolioHomePic.png"
+                    />
+                    <div class = "ProjectText">
+                        <h2>This Portfolio Website</h2>
+                        <p>
+                            This project further explored css and HTML using animations, 
+                            divs, and new styling techniques to make my website interactive 
+                            and visualy appealing.
+                        </p>
+                    </div>
+                </div>
+                <a href="ProjectProcess.html">
+                    <div class = "ProjectContent" id = "DivergentButton">
+                        <img alt = "A picture of the home screen of a game with picture representing divergent factions" class = "ProjectImg" src = "../Project Images/DivergentGameHome.png"/>
+                        <div class = "ProjectText">
+                            <h2>Chose Your Own Adventure Game (Based on the Divergent Movies)</h2>
+                            <p>This project was a work in planning, Javascript, and collaboration. Organizig and receiving constructive criticism helped me improve my project while acctualy programming this game allowed me to practice div concealment.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ProjectProcess.html">
+                    <div class = "ProjectContent" id = "HarryPotterButton">
+                        <img alt = "A picture of the home page of a game with a big picture of the Wesley family" class = "ProjectImg" src = "../Project Images/HarryPotterQuiz1.png"/>
+                        <div class = "ProjectText">
+                            <h2>Harry Potter Themed Personality Quiz</h2>
+                            <p>This project further explored JavaScript by receiving input from the user (in typed and writen mothods) and using booleans and if else statments to create a personalized output for the user. </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="ProjectProcess.html">
+                    <div class = "ProjectContent" id = BikeLaneButton>
+                        <img alt = "The home page of a website with a big picture of a bike lane"  class = "ProjectImg" src = "../Project Images/BikeLandWebpage.jpg"/>
+                        <div class = "ProjectText">
+                            <h2>Bike Lane Webpage</h2>
+                            <p>This project was one of my first HTML/CSS projects and helped me learn about cards and shadows.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </body>
+</html>

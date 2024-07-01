@@ -6,8 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Hello World!</h1>
-    <a href="example.html">hi</a>
+<link rel="stylesheet" href="Style.css">
+<body class = "HomeBody">
+    <ul class = "NavBarUl">
+        <li class = "NavBarLi"><a href="Home.html">Home</a></li>
+        <li class = "NavBarLi"><a href="AboutMe.html">About Me</a></li>
+        <li class = "NavBarLi"><a href="ContactInfo.html">Contact</a></li>
+        <li class = "NavBarLi"><a href="TechnicalSkills.html">Skills</a></li>
+        <li class = "NavBarLi"><a href="Projects.html">Projects</a></li>
+        <li class = "NavBarLi" id ="dropdown">
+          <a href="javascript:void(0)" class="DropdownButton">My Process</a>
+          <div class="dropdown-content">
+            <a href="PortfolioProcess.html">Portfolio Project</a>
+            <a href="DivergentProcess.html">Adventure Game</a>
+            <a href="HarryPotterProcess.html">Quiz Project</a>
+            <a href="BikeLaneProcess.html">Bike Lane Webpage</a>
+          </div>
+        </li>
+    </ul>
+      
+    <!--
+    <div class = "NavBar">
+        <a class = "active" href = "Home.html">Home</a>
+        <a href = "AboutMe.html">About Me</a>
+        <a href = "Projects.html">Projects</a>
+        <a href = "ContactInfo.html">Contact</a>
+        <a href = "TechnicalSkills.html">Skills</a>
+    </div> 
+    -->
+    <div class = "HomeContent">
+        <div class = "HomeText">   
+            <h1>Aspen Siek</h1>
+            <p> | High School Seinor | Cross Country | Tech Inthusiest | </p>
+        </div>
+    </div>
 </body>
 </html>

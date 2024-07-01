@@ -1,0 +1,102 @@
+.NavBar {
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: right;
+    width: 100%;
+    padding: 5px;
+    /*transition-timing-function: cubic-becier(0.25, 0.8, 0.5, 1)
+    transition-duration
+    transition-property
+    */
+}
+.NavBar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;
+}
+
+/* Change the color of links on hover */
+.NavBar a:hover {
+    color: gray;
+}
+  
+/* Add a color to the active/current link */
+.NavBar a.active {
+    color: black;
+    background-color:beige;
+}
+body{
+    background-image: url("AspenPortrait.jpg");
+    background-repeat: no-repeat;
+    background-position: left middle;
+    margin: 0px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+  /* Create four equal columns that sits next to each other */
+.column {
+    flex: 48%;
+    max-width: 48%;
+    padding: 0 4px;  
+}
+/*
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+.column img:hover{
+    width: 100%;
+ }
+*/
+.ProjectHeader{
+    position: fixed;
+    top: 36.5px;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.ProjectContent{
+    background-color: rgba(255, 255, 255, 0.75); 
+    border: solid rgba(255, 255, 255, 0.75) 2px;
+    /* height: 50vh; */
+    width: 97%;
+    overflow: hidden;
+    transition: width 1s, height 1s; 
+    margin: 3px;
+}
+.ProjectContent:hover{
+    width: 100%;
+}
+ 
+.ProjectContent img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ProjectText {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px;
+}
+ /*
+.ProjectText h2, p {
+    margin: 0; 
+    margin-top: 10px; 
+}
+*/

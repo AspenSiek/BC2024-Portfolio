@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+body{
+    background-image: url("AspenPortrait.jpg");
+    background-repeat: no-repeat;
+    background-position: left middle;
+    margin: 0px;
+}
+.NavBarUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.NavBarLi {
+  float: left;
+}
+
+.NavBarLi a, .DropdownButton {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.NavBarLi a:hover, #dropdown:hover .DropdownButton {
+  background-color: beige;
+}
+
+.NavBarLi #dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.75);
+  min-width: 100px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  /* z-index: 1; */
+  border-radius: 25px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; 
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: beige;}
+
+#dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul class = "NavBarUl">
+  <li class = "NavBarLi"><a href="Home.html">Home</a></li>
+  <li class = "NavBarLi"><a href="AboutMe.html">About Me</a></li>
+  <li class = "NavBarLi"><a href="ContactInfo.html">Contact</a></li>
+  <li class = "NavBarLi"><a href="TechnicalSkills.html">Skills</a></li>
+  <li class = "NavBarLi"><a href="Projects.html">Projects</a></li>
+  <li class = "NavBarLi" id ="dropdown">
+    <a href="javascript:void(0)" class="DropdownButton">My Process</a>
+    <div class="dropdown-content">
+      <a href="#">Portfolio Project</a>
+      <a href="#">Adventure Game</a>
+      <a href="#">Quiz Project</a>
+      <a href="#">Bike Lane Webpage</a>
+    </div>
+  </li>
+</ul>
+
+</body>
+</html>
