@@ -12,11 +12,10 @@
         <ul class = "NavBarUl">
             <li class = "NavBarLi"><a href="Home.html">Home</a></li>
             <li class = "NavBarLi"><a href="AboutMe.html">About Me</a></li>
-            <li class = "NavBarLi"><a href="ContactInfo.html">Contact</a></li>
             <li class = "NavBarLi"><a href="TechnicalSkills.html">Skills</a></li>
             <li class = "NavBarLi"><a href="Projects.html">Projects</a></li>
             <li class = "NavBarLi" id ="dropdown">
-              <a href="javascript:void(0)" class="DropdownButton">My Process</a>
+              <a class="DropdownButton">My Process</a>
               <div class="dropdown-content">
                 <a href="PortfolioProcess.html">Portfolio Project</a>
                 <a href="DivergentProcess.html">Adventure Game</a>
@@ -24,31 +23,33 @@
                 <a href="BikeLaneProcess.html">Bike Lane Webpage</a>
               </div>
             </li>
+            <li class = "NavBarLi"><a href="Citations.html">Citations</a></li>
+            <li class = "NavBarLi"><a href="ContactInfo.html">Contact</a></li>
         </ul>
         <div ProcessPortfolio>
             <div class = "ProcessContainer">
                 <div class = "ProcessHeader">
-                    <h1>My Process for my Portfolio Project</h1>
+                    <h1>My Process for My Portfolio Project</h1>
                 </div>
                 <div class = "ProcessContent">
                     <img id = "BrainstormImg" class = "ProcessImg" src = "../Process Images/PortfolioBrainstorm.jpg"/>
                     <div class = "ProcessText">
                         <h2>Brainstorm</h2>
-                        <p id = "BrainstormText">Before doing anything else, I did some rouhg sketches of what I wanted each of my pages to look like.</p>
+                        <p id = "BrainstormText">Before doing anything else, I did some rough sketches of what I wanted each of my pages to look like.</p>
                     </div>
                 </div>
                 <div class = "ProcessContent">
                     <img class = "ProcessImg" src = "../Process Images/PortfolioWireframe.png"/>
-                    <div class = "ProjectText">
-                        <h2>WireFrame</h2>
-                        <p>Next, I went onto Whimsical to do some more precise modeling for my website.</p>
+                    <div class = "ProcessText">
+                        <h2>Wireframe</h2>
+                        <p>Next, I went onto Whimsical to do some more precise modeling for my website. Not all of the features I included ended up in my finished product.</p>
                     </div>
                 </div>
                 <div class = "ProcessContent">
                     <img class = "ProcessImg" src =  "../Process Images/PortfolioHTML.png"/>
-                    <div class = "ProjectText">
+                    <div class = "ProcessText">
                         <h2>HTML</h2>
-                        <p>The NavBar took a few tries and W3 School searches to get right, but I ended up with this list or links with divs inside of it. I also practiced making columns, rows, and lines in html while making my skills page.</p>
+                        <p>The NavBar took a few tries and W3 School searches to get right, but I ended up with this list or links with divs inside of it. I also practiced making columns, rows, and lines in HTML while making my skills page.</p>
                     </div>
                 </div>
                 <div class = "ProcessContent">
@@ -57,24 +58,39 @@
                     
 
                     <div class = PortfolioRow>
-                        <div class = PortfolioColumn>
-                            <video class = "ProcessImg" autoplay>
+                        <!-- <div class = PortfolioColumn> -->
+                            <video class = "ProcessImg" id = "PortfolioCSS" controls loop>
                                 <source src = "../Process Images/ProjectVideo.mp4" type="video/mp4">
-                            </video>                        </div>
-                        <div class = PortfolioColumn>
+                            </video>                        
+                        <!-- </div> -->
+                        <!-- <div class = PortfolioColumn> -->
                             <img class = "ProcessImg" id = "PortfolioCSS" src = "../Process Images/PortfolioCSSTop.png"/>
+                        <!-- </div> -->
+                        <!-- <div class = PortfolioColumn> -->
                             <img class = "ProcessImg" id = "PortfolioCSS" src = "../Process Images/PortfolioCSSBottom.png"/>
-                        </div>
+                        <!-- </div> -->
                     </div>
-                    <div class = "ProjectText">
+                    <div class = "ProcessText">
                         <h2>CSS</h2>
-                        <p>The achivement I am likely most proud of is figuting out animations 
-                            and transitions, two of which are shown here. The transition 
-                            increases the width of project enclosured when the user hovers over 
-                            them and the animation takes care of sliding all of the content onto 
-                            the page when it loads. I also learned how to make translucent white 
-                            backgrounds during this project ( shown as rbga(255, 255, 255, 0.85)) 
+                        <p>I also learned how to make translucent white 
+                            backgrounds during this project (using the RGBA value rbga(255, 255, 255, 0.85)) 
                             which helped me create the style I was looking for.
+                            <br/>
+                            <br/>
+                            The achievement I am most proud of is figuring out animations 
+                            and transitions, two of which are shown here. 
+                            <br/>
+                            <br/>
+                            The animation takes care of sliding all of the content onto 
+                            the page when it loads. I did that by changing the content's left margin from the entire page's width to zero.
+                            <br/>
+                            <br/>
+                            The transition increases the width of project enclosures from 90% to 93% when the user hovers over 
+                            the div.
+                            <br/>
+                            <br/>
+                            
+                            
                         </p>
                     </div>
                 </div>
